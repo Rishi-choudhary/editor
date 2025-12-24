@@ -1,0 +1,277 @@
+Good — now this is clear.
+I’ll not rewrite code, not invent UI, and not fight your CSS.
+
+You want guidance on how to correctly build THIS section (screenshot-2) using:
+	•	All words as SVG
+	•	Background image as SVG
+	•	Existing Figma CSS (absolute, layered, heavy)
+	•	Next.js
+	•	Editor area = just a placeholder box (later iframe/software)
+
+I’ll explain WHAT TO DO and WHY, like a senior frontend dev reviewing a handoff.
+
+⸻
+
+1️⃣ First: what screenshot-2 actually is (important)
+
+Screenshot-2 is NOT a normal hero section.
+
+It is a canvas-style composition.
+
+Meaning:
+	•	This is closer to a poster / artwork
+	•	NOT text-flow layout
+	•	NOT responsive typography
+	•	NOT semantic stacking
+
+So the correct approach is:
+
+SVG + absolute layout + fixed aspect container
+
+Trying to make this “fluid web layout” is why your first version looked off.
+
+⸻
+
+2️⃣ Correct mental model (THIS fixes everything)
+
+Think of this section as 3 layers only:
+
+SECTION (relative, full viewport)
+│
+├── SVG BACKGROUND (absolute, full)
+│
+├── SVG TYPOGRAPHY LAYER (absolute, full)
+│
+└── EDITOR PANEL (absolute, centered block)
+
+That’s it.
+
+Everything else (glow, text, gradients) already lives inside SVG.
+
+⸻
+
+3️⃣ What NOT to do (this caused your mismatch)
+
+❌ Do NOT recreate text with HTML headings
+❌ Do NOT re-implement gradients in CSS
+❌ Do NOT translate absolute px → flex/grid
+❌ Do NOT make text responsive
+
+Your design is intentionally non-responsive artwork.
+
+⸻
+
+4️⃣ What to export from Figma (critical)
+
+You said you’ll provide all words + background as SVG — perfect.
+
+From Figma export:
+
+✅ Export as SVG:
+	•	Full background artwork (head, glow, gradients)
+	•	All hero text (WRITE / SMARTER / EDIT / AI / EFFORTLESSLY)
+	•	One combined SVG is best
+	•	Optional: separate SVG for text if you want layering control
+
+❌ Do NOT export:
+	•	Editor UI
+	•	Toolbar
+	•	Text area
+	•	Buttons
+
+Those stay HTML.
+
+⸻
+
+5️⃣ Correct Next.js structure (final answer)
+
+This is the only structure you should use:
+
+<section className="editor-canvas">
+
+  {/* Background artwork */}
+  <div className="canvas-bg">
+    <img src="/bg-artwork.svg" alt="" />
+  </div>
+
+  {/* Typography artwork */}
+  <div className="canvas-text">
+    <img src="/hero-text.svg" alt="" />
+  </div>
+
+  {/* Editor block */}
+  <div className="canvas-editor">
+    <!-- toolbar -->
+    <!-- textarea placeholder -->
+  </div>
+
+</section>
+
+No extra wrappers.
+No flex gymnastics.
+
+⸻
+
+6️⃣ CSS strategy (based on your file)
+
+Your CSS dump tells me one thing clearly:
+
+👉 This design was composed at 1440×~1100
+
+So we lock an aspect ratio.
+
+Root section
+
+.editor-canvas {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+
+⸻
+
+Background SVG (matches Figma artboard)
+
+.canvas-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.canvas-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+This replaces ALL of:
+	•	gradients
+	•	blur masks
+	•	glow layers
+	•	mix-blend-mode chaos
+
+⸻
+
+Typography SVG (overlay text)
+
+.canvas-text {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.canvas-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+Why contain?
+Because text must not crop.
+
+⸻
+
+7️⃣ Editor panel (THIS is the only real layout)
+
+From your CSS:
+	•	Width ≈ 1200px
+	•	Centered
+	•	Floating
+	•	Glass background
+
+So do exactly that.
+
+.canvas-editor {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  max-width: calc(100% - 40px);
+  z-index: 2;
+}
+
+This matches screenshot-2 perfectly.
+
+⸻
+
+8️⃣ Editor styling (reuse your existing CSS)
+
+You already have these correct in your file:
+	•	dark container
+	•	toolbar row
+	•	textarea box
+	•	border radius
+	•	glow shadow
+
+Just ensure two rules:
+
+.canvas-editor * {
+  box-sizing: border-box;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+}
+
+Later replacement becomes trivial:
+
+<div className="editor-body">
+  {/* replace */}
+  <textarea />
+
+  {/* later */}
+  {/* <iframe /> */}
+</div>
+
+
+⸻
+
+9️⃣ Why screenshot-2 looks correct and screenshot-1 didn’t
+
+Screenshot 1	Screenshot 2
+HTML text	SVG text
+Responsive layout	Fixed canvas
+CSS gradients	SVG artwork
+Flex/grid	Absolute composition
+
+Your design expects screenshot-2 approach.
+
+⸻
+
+10️⃣ Final senior advice (important)
+
+This section is:
+	•	❌ NOT a component library
+	•	❌ NOT a marketing hero
+	•	❌ NOT responsive typography
+
+It is a hero artwork with an interactive overlay.
+
+Treat it like:
+
+“Landing page canvas with embedded app preview”
+
+That’s exactly how tools like:
+	•	Framer
+	•	Spline
+	•	Linear
+	•	Raycast
+
+do it.
+
+⸻
+
+If you want next:
+	•	I can tell you exact SVG export settings
+	•	Or help you scale this down for mobile
+	•	Or help you optimize SVG size & performance
+	•	Or help you layer parallax subtly
+
+Just tell me what you want next.

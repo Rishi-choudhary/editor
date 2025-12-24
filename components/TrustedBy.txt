@@ -1,0 +1,84 @@
+'use client'
+
+import Image from 'next/image'
+import { motion } from 'framer-motion'
+
+const brands = [
+    { src: "/assets/trusted/HP.png", alt: "HP" },
+    { src: "/assets/trusted/Daf.png", alt: "DAF" },
+    { src: "/assets/trusted/BuildBox.png", alt: "BuildBox" },
+    { src: "/assets/trusted/IBM.png", alt: "IBM" },
+    { src: "/assets/trusted/HP.png", alt: "HP" },
+    { src: "/assets/trusted/Daf.png", alt: "DAF" },
+    { src: "/assets/trusted/BuildBox.png", alt: "BuildBox" },
+    { src: "/assets/trusted/IBM.png", alt: "IBM" },
+]
+
+export default function TrustedBy() {
+    return (
+        <section className="relative mx-auto max-w-[1240px] px-6 py-24">
+            <div className="relative w-full max-w-[1200px] h-[600px] md:h-[806px] mx-auto rounded-[20px] border border-white/20 shadow-[0px_0px_250px_#000000,0px_0px_250px_#000000,0px_0px_108px_#000000] overflow-hidden flex flex-col items-center justify-center bg-black">
+
+                {/* Background Image */}
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/assets/trusted/trusted-section-bg.png"
+                        alt="Background"
+                        fill
+                        className="object-cover opacity-100"
+                        priority
+                    />
+                    {/* Overlay to darken if needed for text contrast */}
+                    {/* <div className="absolute inset-0 bg-black/40" /> */}
+                </div>
+
+                {/* Background "BRANDS" Text - Adjusted position and opacity */}
+                <div className="absolute inset-x-0 bottom-[-5%] text-center pointer-events-none select-none z-10">
+                    <span className="font-[family-name:var(--font-league-gothic)] text-7xl md:text-9xl lg:text-[280px] leading-[1] text-white/[0.03] uppercase tracking-widest whitespace-nowrap">
+                        TRUSTED BY
+                    </span>
+                </div>
+
+                {/* Content */}
+                <div className="relative z-20 flex flex-col items-center w-full">
+                    {/* Header */}
+                    <div className="mb-20 text-center">
+                        <h2 className="font-[family-name:var(--font-league-gothic)] text-6xl md:text-8xl leading-[1] text-white uppercase tracking-widest drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                            TRUSTED BY
+                        </h2>
+                    </div>
+
+                    {/* Infinite Carousel */}
+                    <div className="w-full relative overflow-hidden mask-linear-fade">
+                        {/* Gradient Masks */}
+                        <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-black/80 to-transparent z-30 pointer-events-none" />
+                        <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-black/80 to-transparent z-30 pointer-events-none" />
+
+                        <motion.div
+                            className="flex gap-20 w-fit items-center"
+                            animate={{ x: ["0%", "-50%"] }}
+                            transition={{
+                                repeat: Infinity,
+                                ease: "linear",
+                                duration: 20
+                            }}
+                        >
+                            {/* Duplicate logos 3 times to ensure smooth loop */}
+                            {[...brands, ...brands, ...brands].map((brand, index) => (
+                                <div key={index} className="relative w-[140px] h-[80px] flex-shrink-0 flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                                    <Image
+                                        src={brand.src}
+                                        alt={brand.alt}
+                                        width={140}
+                                        height={80}
+                                        className="object-contain"
+                                    />
+                                </div>
+                            ))}
+                        </motion.div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}

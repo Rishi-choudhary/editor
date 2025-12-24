@@ -1,0 +1,9 @@
+/* Rectangle 161125107 */
+
+position: absolute;
+width: 1190px;
+height: 3246.14px;
+
+background: #101010;
+filter: blur(125.527px);
+transform: rotate(90deg);

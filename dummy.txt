@@ -1,0 +1,2220 @@
+/* Group 2085664517 */
+
+position: absolute;
+width: 105px;
+height: 141px;
+left: 1210px;
+top: 348px;
+
+
+
+/* ai */
+
+position: absolute;
+width: 105px;
+height: 141px;
+left: 1210px;
+top: 348px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* Edit */
+
+position: absolute;
+width: 237px;
+height: 141px;
+left: 1082px;
+top: 155px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #EDEDED;
+
+
+
+/* Group 2085664516 */
+
+position: absolute;
+width: 530.31px;
+height: 682.75px;
+left: 383px;
+top: 160px;
+
+
+
+/* Group 2085664513 */
+
+position: absolute;
+width: 514.33px;
+height: 682.75px;
+left: calc(50% - 514.33px/2 - 78.2px);
+top: 160px;
+
+
+
+/* image 507 */
+
+position: absolute;
+width: 514.33px;
+height: 682.75px;
+left: 384.63px;
+top: 160px;
+
+background: url(bg_removal [Background removed].png);
+mix-blend-mode: hard-light;
+
+
+/* Group 2085664511 */
+
+position: absolute;
+width: 302.81px;
+height: 156.6px;
+left: 520.53px;
+top: 239.75px;
+
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+background: #D9D9D9;
+opacity: 0.5;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 437.47px;
+top: 149.08px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+transform: rotate(-4.98deg);
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+background: #D9D9D9;
+opacity: 0.5;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 437.47px;
+top: 149.08px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+transform: rotate(-4.98deg);
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 556.34px;
+top: 251.15px;
+
+background: #D9D9D9;
+opacity: 0.5;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 437.47px;
+top: 149.08px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+transform: rotate(-4.98deg);
+
+
+/* Mask group */
+
+position: absolute;
+width: 292.48px;
+height: 131.71px;
+left: 520.53px;
+top: 239.75px;
+
+mix-blend-mode: plus-lighter;
+filter: blur(18.4296px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 292.48px;
+height: 131.71px;
+left: 520.53px;
+top: 239.75px;
+
+background: #D9D9D9;
+opacity: 0.5;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 578.4px;
+height: 767.8px;
+left: 364.92px;
+top: 106.14px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+transform: rotate(-4.98deg);
+
+
+/* Group 2085664514 */
+
+position: absolute;
+width: 530.31px;
+height: 682.75px;
+left: calc(50% - 530.31px/2 - 71.84px);
+top: 160px;
+
+mix-blend-mode: plus-darker;
+
+
+/* image 507 */
+
+position: absolute;
+width: 514.33px;
+height: 682.75px;
+left: 383px;
+top: 160px;
+
+background: url(bg_removal [Background removed].png);
+mix-blend-mode: hard-light;
+
+
+/* Group 2085664511 */
+
+position: absolute;
+width: 485.31px;
+height: 200.63px;
+left: 428px;
+top: 218px;
+
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 554.71px;
+top: 251.14px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 554.71px;
+top: 251.14px;
+
+background: #D9D9D9;
+opacity: 0.5;
+box-shadow: 0px 0px 250px #D9D9D9, 0px 0px 250px #D9D9D9, 0px 0px 250px #D9D9D9, 0px 0px 140.757px #D9D9D9, 0px 0px 40.2164px #D9D9D9, 0px 0px 20.1082px #D9D9D9;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 435.84px;
+top: 149.08px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+filter: drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 105.573px #FFFFFF) drop-shadow(0px 0px 52.7866px #FFFFFF);
+transform: rotate(-4.98deg);
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 682px;
+top: 299px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 682px;
+top: 299px;
+
+background: #D9D9D9;
+opacity: 0.5;
+box-shadow: 0px 0px 250px #D9D9D9, 0px 0px 250px #D9D9D9, 0px 0px 250px #D9D9D9, 0px 0px 140.757px #D9D9D9, 0px 0px 40.2164px #D9D9D9, 0px 0px 20.1082px #D9D9D9;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 563.13px;
+top: 196.94px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+filter: drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 250px #FFFFFF) drop-shadow(0px 0px 105.573px #FFFFFF) drop-shadow(0px 0px 52.7866px #FFFFFF);
+transform: rotate(-4.98deg);
+
+
+/* Mask group */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 428px;
+top: 218px;
+
+filter: blur(14.0783px);
+transform: rotate(-4.98deg);
+
+
+/* Vector 8105 */
+
+position: absolute;
+width: 223.42px;
+height: 100.61px;
+left: 428px;
+top: 218px;
+
+background: #D9D9D9;
+opacity: 0.5;
+transform: rotate(-4.98deg);
+
+
+/* image 504 */
+
+position: absolute;
+width: 441.84px;
+height: 586.52px;
+left: 309.13px;
+top: 115.94px;
+
+background: url(white neon glow should arise from the subject eye wear only with transparent background. The glow should naturally blend with the features and aesthetics of the image..png);
+mix-blend-mode: lighten;
+transform: rotate(-4.98deg);
+
+
+/* Write */
+
+position: absolute;
+width: 353px;
+height: 141px;
+left: 120px;
+top: 160px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #EDEDED;
+
+
+
+/* and */
+
+position: absolute;
+width: 217px;
+height: 141px;
+left: 818px;
+top: 160px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+
+
+/* Effortlessly */
+
+position: absolute;
+width: 1206px;
+height: 211px;
+left: 113px;
+top: 540px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 335.278px;
+line-height: 414px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+background: linear-gradient(92.86deg, #808080 -0.42%, #606060 101.75%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+mix-blend-mode: exclusion;
+opacity: 0.3;
+
+
+/* with */
+
+position: absolute;
+width: 286px;
+height: 141px;
+left: 867px;
+top: 348px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+
+
+/* Group 2085664501 */
+
+position: absolute;
+width: 1200px;
+height: 682px;
+left: 120px;
+top: 719px;
+
+
+
+/* Frame 2147224884 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 39.65px;
+
+position: absolute;
+width: 1200px;
+height: 682px;
+left: calc(50% - 1200px/2);
+top: 719px;
+
+
+
+/* Group 2085664496 */
+
+width: 1200px;
+height: 615px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224885 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px;
+gap: 9.91px;
+
+position: absolute;
+width: 1200px;
+height: 615px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 0, 0, 0.1);
+box-shadow: 0px -32.2192px 52.9386px #000000;
+border-radius: 9.91359px;
+
+
+/* Try it here ... */
+
+width: 77px;
+height: 29px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 250px #AEAEAE, 0px 0px 216px #AEAEAE, 0px 0px 126px #AEAEAE, 0px 0px 63px #AEAEAE, 0px 0px 18px #AEAEAE, 0px 0px 9px #AEAEAE;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Thumbnail 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 31.4374px;
+gap: 39.46px;
+
+width: 1131.55px;
+height: 518.46px;
+
+background: #141416;
+backdrop-filter: blur(14.3433px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24.7854px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2085666640 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 29.3px;
+
+width: 1068.68px;
+height: 455.59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Bubble Menu */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 19.5302px;
+gap: 19.53px;
+
+width: 1068.68px;
+height: 73.24px;
+
+background: #19191C;
+border-radius: 9.76509px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2085665087 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12.21px;
+
+width: 1029.62px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2085665087 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14.65px;
+
+width: 1029.62px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 34.18px;
+
+width: 146.48px;
+height: 29.3px;
+
+background: #24242A;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Poppins */
+
+margin: 0 auto;
+width: 59px;
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6476px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Huge-icon/arrows/bulk/direction-down 01 */
+
+margin: 0 auto;
+width: 18.29px;
+height: 18.29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* direction down */
+
+position: absolute;
+width: 8.76px;
+height: 4.19px;
+left: 4.76px;
+top: 7.05px;
+
+
+
+/* Vector 175 (Stroke) */
+
+position: absolute;
+left: 26.04%;
+right: 26.04%;
+top: 38.54%;
+bottom: 38.54%;
+
+background: #FFFFFF;
+
+
+/* Frame 2085665090 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7.32px;
+
+width: 139.15px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2085665080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7.32px;
+
+width: 139.15px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* B */
+
+width: 19.53px;
+height: 19.53px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 19.5302px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2085665082 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Underline-01 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.22064px solid #FFFFFF;
+border-radius: 7.32381px;
+
+
+/* Frame 2085665078 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Italic-01 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 7 */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.22064px solid #FFFFFF;
+border-radius: 7.32381px;
+
+
+/* Frame 2085665079 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* carbon:text-strikethrough */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.51%;
+right: 12.49%;
+top: 18.76%;
+bottom: 18.66%;
+
+background: #FFFFFF;
+
+
+/* Vector 3015 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 2085665089 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 9.77px;
+
+width: 57.35px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4.88254px 7.32381px;
+gap: 35.4px;
+
+width: 57.35px;
+height: 34.18px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2085665079 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4.88px;
+
+width: 42.7px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 19.53px;
+height: 19.53px;
+
+background: #FFFFFF;
+border-radius: 2.44127px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Huge-icon/arrows/bulk/direction-down 01 */
+
+width: 18.29px;
+height: 18.29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* direction down */
+
+position: absolute;
+width: 8.76px;
+height: 4.19px;
+left: 4.76px;
+top: 7.05px;
+
+
+
+/* Vector 175 (Stroke) */
+
+position: absolute;
+left: 26.04%;
+right: 26.04%;
+top: 38.54%;
+bottom: 38.54%;
+
+background: #FFFFFF;
+
+
+/* Vector 3014 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 2085666336 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7.32px;
+
+width: 175.77px;
+height: 34.18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2085666245 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 49.6%;
+bottom: 12.5%;
+
+background: #FFFFFF;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 40.7%;
+
+background: #FFFFFF;
+opacity: 0.5;
+
+
+/* Frame 2085666248 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Huge-icon/editor/solid/link */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* link */
+
+position: absolute;
+width: 14.32px;
+height: 14.32px;
+left: 2.61px;
+top: 2.61px;
+
+
+
+/* combo shape */
+
+position: absolute;
+width: 14.32px;
+height: 14.32px;
+left: 2.61px;
+top: 2.61px;
+
+background: #FFFFFF;
+
+
+/* Vector 2730 (Stroke) */
+
+position: absolute;
+left: 36.74%;
+right: 57.01%;
+top: 36.74%;
+bottom: 32.01%;
+
+background: #28303F;
+transform: rotate(45deg);
+
+
+/* Vector 2731 (Stroke) */
+
+position: absolute;
+left: 38.64%;
+right: 15.83%;
+top: 3.91%;
+bottom: 60.37%;
+
+background: #28303F;
+transform: rotate(45deg);
+
+
+/* Vector 2732 (Stroke) */
+
+position: absolute;
+left: 3.91%;
+right: 50.55%;
+top: 38.64%;
+bottom: 25.65%;
+
+background: #28303F;
+transform: rotate(-135deg);
+
+
+/* Frame 2085666247 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* face-smile */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* face-smile */
+
+position: absolute;
+left: 5.21%;
+right: 5.21%;
+top: 5.21%;
+bottom: 5.21%;
+
+background: #FFFFFF;
+
+
+/* Frame 2085666246 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* @ */
+
+width: 19.53px;
+height: 19.53px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 17.0889px;
+line-height: 20px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2085666250 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Perspective-01 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.22064px solid #FFFFFF;
+
+
+/* Vector 3016 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Frame 2085666358 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7.32px;
+
+width: 65.91px;
+height: 29.3px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Frame 2085665081 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:code-bold */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.34%;
+right: 9.33%;
+top: 17.7%;
+bottom: 14.25%;
+
+background: #FFFFFF;
+
+
+/* Frame 2085665080 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 7.32px;
+
+width: 29.3px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ic:round-code */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.07%;
+right: 10.08%;
+top: 26.7%;
+bottom: 26.7%;
+
+background: #FFFFFF;
+
+
+/* Vector 3017 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4.88254px 9.76509px;
+gap: 7.32px;
+
+width: 92.77px;
+height: 29.3px;
+
+background: #19191C;
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* Frame 11 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 4.48px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 9.37px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 5 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 14.26px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 1.63px;
+height: 1.63px;
+left: 2.45px;
+top: 3.67px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 1.63px;
+height: 1.63px;
+left: 2.45px;
+top: 8.56px;
+
+background: #FFFFFF;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 1.63px;
+height: 1.63px;
+left: 2.45px;
+top: 13.45px;
+
+background: #FFFFFF;
+
+
+/* Frame 12 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 4.48px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 9.37px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 5 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 5.71px;
+top: 14.26px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* 1 */
+
+position: absolute;
+width: 2.44px;
+height: 4.07px;
+left: 2.45px;
+top: 2.44px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 3.25953px;
+line-height: 4px;
+
+color: #FFFFFF;
+
+
+
+/* 2 */
+
+position: absolute;
+width: 2.44px;
+height: 4.07px;
+left: 2.45px;
+top: 7.33px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 3.25953px;
+line-height: 4px;
+
+color: #FFFFFF;
+
+
+
+/* 3 */
+
+position: absolute;
+width: 2.44px;
+height: 4.07px;
+left: 2.45px;
+top: 12.22px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 3.25953px;
+line-height: 4px;
+
+color: #FFFFFF;
+
+
+
+/* Frame 14 */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 7.34px;
+top: 4.48px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 7.34px;
+top: 9.37px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Line 5 */
+
+position: absolute;
+width: 10.59px;
+height: 0px;
+left: 7.34px;
+top: 14.26px;
+
+border: 1.62976px solid #FFFFFF;
+transform: rotate(180deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 4.04%;
+right: 70.41%;
+top: 12.52%;
+bottom: 16.64%;
+
+background: #FFFFFF;
+
+
+/* Vector 3018 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* Frame 2085666360 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4.88254px 14.6476px;
+gap: 14.65px;
+
+width: 132.47px;
+height: 29.3px;
+
+background: linear-gradient(91.39deg, #191A20 9.23%, #2A2B31 59.43%, #191A20 100.02%);
+border-radius: 4.88254px;
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+
+
+/* magicoon */
+
+width: 19.53px;
+height: 19.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* magicoon */
+
+position: absolute;
+left: 9.39%;
+right: 9.4%;
+top: 9.39%;
+bottom: 9.42%;
+
+background: #FFFFFF;
+
+
+/* Go with AI */
+
+width: 69px;
+height: 17px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14.6476px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector 3019 */
+
+width: 0px;
+height: 29.3px;
+
+border: 0.915477px solid #525252;
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+
+
+/* more-vertical */
+
+width: 29.3px;
+height: 29.3px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+
+
+/* more-vertical */
+
+position: absolute;
+left: 43.81%;
+right: 43.67%;
+top: 10.42%;
+bottom: 10.42%;
+
+background: #FFFFFF;
+border: 1.22064px solid #FFFFFF;
+
+
+/* Frame 2085665059 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 29.2953px;
+gap: 14.65px;
+
+width: 1068.68px;
+height: 353.05px;
+
+border: 1.22064px solid #393939;
+border-radius: 9.76509px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Your Text */
+
+width: 1010.09px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17.0889px;
+line-height: 120%;
+/* identical to box height, or 21px */
+letter-spacing: 0.05em;
+
+color: #848485;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 2085664497 */
+
+width: 1200px;
+height: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224885 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px;
+gap: 9.91px;
+
+position: absolute;
+width: 1200px;
+height: 100px;
+left: 0px;
+top: 654.65px;
+
+border-radius: 9.91359px;
+
+
+/* Experience real-time collaboration, AI-powered writing suggestions, and a distraction-free editor built for professionals, teams, and content creators. */
+
+margin: 0 auto;
+width: 575px;
+height: 52px;
+
+font-family: 'Host Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224934 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 364px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Nav Menu Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 48px;
+gap: 10px;
+
+width: 189px;
+height: 48px;
+
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* see it in action */
+
+width: 93px;
+height: 13px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nav Menu Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 48px;
+gap: 10px;
+
+width: 175px;
+height: 48px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* try for free */
+
+width: 79px;
+height: 13px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 8115 */
+
+position: absolute;
+width: 216px;
+height: 102.03px;
+left: 557px;
+top: 266.97px;
+
+border: 19px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0px 0px 250px #FFFFFF, 0px 0px 250px #FFFFFF, 0px 0px 250px #FFFFFF, 0px 0px 135.135px #FFFFFF, 0px 0px 38.61px #FFFFFF, 0px 0px 19.305px #FFFFFF;
+
+
+/* Smarter */
+
+position: absolute;
+width: 528px;
+height: 141px;
+left: 119px;
+top: 348px;
+
+font-family: 'FORGE SANS';
+font-style: normal;
+font-weight: 400;
+font-size: 224.074px;
+line-height: 277px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+

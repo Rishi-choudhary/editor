@@ -1,0 +1,109 @@
+.wrapper {
+    padding: 6rem 2rem;
+    /* background: radial-gradient(circle at top, #1a1a1a, #000); */
+    font-family: Inter, sans-serif;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tab {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+
+.active {
+    background: #262626;
+    color: #fff;
+}
+
+/* Glass container */
+.glass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 4rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.7);
+}
+
+/* Editor */
+.editorArea {
+    position: relative;
+    max-width: 26rem;
+}
+
+.toolbar {
+    position: absolute;
+    top: -2.5rem;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem;
+    background: #0b0b0b;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toolbar span {
+    background: #202122;
+    color: #fff;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+}
+
+.editorCard {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+/* Right side */
+.preview {
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 0 0 2rem #fff;
+}
+
+.preview h1 {
+    font-size: clamp(4rem, 8vw, 10rem);
+    line-height: 0.8;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .glass {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .preview {
+        text-align: center;
+    }
+}

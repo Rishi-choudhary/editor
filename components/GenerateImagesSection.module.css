@@ -1,0 +1,207 @@
+/* 1. Main Hero Container */
+.giHero {
+  position: relative;
+  min-height: 100vh;
+  background: #101010;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2. Background Layers */
+.giBgLayer {
+  position: absolute;
+  inset: 0;
+  opacity: 1;
+  background: radial-gradient(circle at 60% 40%, #1a1a1a 0%, #101010 60%);
+  z-index: 0;
+}
+
+.giBlur {
+  position: absolute;
+  background: #000;
+  filter: blur(120px);
+  opacity: 0.6;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.giBlurLeft {
+  width: 40vw;
+  height: 40vw;
+  left: -10%;
+  top: 20%;
+  background: #2a2a2a;
+}
+
+.giBlurCenter {
+  width: 50vw;
+  height: 50vw;
+  left: 30%;
+  top: 10%;
+  background: #1f1f1f;
+}
+
+/* 3. Right Face Image Layer */
+.giFaceLayer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: url('/generate_images/12.png') no-repeat right center;
+  background-size: contain;
+  opacity: 0.5;
+  mix-blend-mode: luminosity;
+  z-index: 1;
+  mask-image: linear-gradient(to right, transparent, black 40%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 40%);
+}
+
+/* 4. Text Layer */
+.giTextLayer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.giTitle {
+  font-family: var(--font-league-gothic), sans-serif;
+  font-size: clamp(8rem, 20vw, 25rem);
+  line-height: 0.8;
+  text-align: center;
+  text-transform: uppercase;
+  
+  /* rid_CSS.txt gradient style */
+  background: linear-gradient(92.86deg, #808080 -0.42%, #606060 101.75%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  
+  mix-blend-mode: exclusion;
+  opacity: 0.3;
+  white-space: nowrap;
+}
+
+/* 5. Content Layer (Grid & CTA) */
+.giContentLayer {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 100vh;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.giGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 80%;
+  perspective: 1000px;
+}
+
+.giCard {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+}
+
+.giCard:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.7);
+  z-index: 10;
+}
+
+/* Specific Card Positioning (Random "Scattered" Layout) */
+.giCard1 { grid-column: 2 / 4; grid-row: 2 / 5; transform: rotate(-5deg); }
+.giCard2 { grid-column: 4 / 6; grid-row: 1 / 4; transform: rotate(3deg); }
+.giCard3 { grid-column: 6 / 8; grid-row: 2 / 4; transform: rotate(-2deg); margin-top: 2rem; }
+.giCard4 { grid-column: 8 / 10; grid-row: 1 / 3; transform: rotate(4deg); }
+.giCard5 { grid-column: 1 / 3; grid-row: 5 / 8; transform: rotate(6deg); }
+.giCard6 { grid-column: 3 / 5; grid-row: 6 / 9; transform: rotate(-3deg); }
+.giCard7 { grid-column: 9 / 11; grid-row: 3 / 6; transform: rotate(5deg); }
+.giCard8 { grid-column: 11 / 13; grid-row: 4 / 8; transform: rotate(-4deg); }
+.giCard9 { grid-column: 2 / 4; grid-row: 9 / 12; transform: rotate(-2deg); }
+.giCard10 { grid-column: 5 / 7; grid-row: 8 / 11; transform: rotate(4deg); }
+.giCard11 { grid-column: 8 / 10; grid-row: 7 / 10; transform: rotate(-6deg); }
+
+/* Center CTA Button */
+.giCtaContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.giCta {
+  /* rid_CSS.txt button style */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 18.6294px rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  border: none;
+  
+  font-family: var(--font-league-gothic), sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.giCta:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.8);
+}
+
+/* 6. Overlay Layer */
+.giOverlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  background: radial-gradient(circle at center, transparent 30%, #101010 100%);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .giTitle {
+    font-size: 15vw;
+  }
+  
+  .giGrid {
+    display: none; /* Simplify for mobile, or stack them */
+  }
+  
+  .giBgLayer {
+    /* Show a few representative images on mobile instead of full grid */
+    background: url('/generate_images/1.png') no-repeat top center;
+    background-size: cover;
+    opacity: 0.2;
+  }
+  
+  .giFaceLayer {
+     opacity: 0.2;
+  }
+}

@@ -1,26 +1,102 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-host: var(--font-host-grotesk);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --background: #101010;
+  --foreground: #ededed;
+}
+
+.custom-theming-card {
+  background: rgba(18, 18, 18, 0.5);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow:
+    -744px 448px 243px rgba(0, 0, 0, 0.01),
+    -476px 287px 222px rgba(0, 0, 0, 0.12),
+    -268px 161px 188px rgba(0, 0, 0, 0.4),
+    -119px 72px 139px rgba(0, 0, 0, 0.68),
+    -30px 18px 76px rgba(0, 0, 0, 0.79);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-theming-glow {
+  position: absolute;
+  width: 458px;
+  height: 3246px;
+  background: #101010;
+  filter: blur(125.5px);
+  backdrop-filter: blur(30.2px);
+  transform: rotate(90deg);
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  pointer-events: none;
+}
+
+.pricing-header-shadow {
+  text-shadow:
+    0px 0px 250px #C2C2C2,
+    0px 0px 210.585px #C2C2C2,
+    0px 0px 122.841px #C2C2C2,
+    0px 0px 61.4207px #C2C2C2,
+    0px 0px 17.5488px #C2C2C2,
+    0px 0px 8.77438px #C2C2C2;
+}
+
+.pricing-price-shadow {
+  text-shadow: 0px 0px 100px #FFFFFF;
+}
+
+/* Container for 1200px max-width content sections */
+.container-main {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-main {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+p,
+li {
+  font-family: var(--font-host-grotesk), sans-serif;
+}
+
+h4,
+h5,
+h3,
+h6,
+span,
+button,
+a {
+  font-family: var(--font-league-gothic), "League Gothic", Impact, sans-serif;
 }

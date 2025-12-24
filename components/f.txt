@@ -1,0 +1,110 @@
+'use client'
+
+import Image from 'next/image'
+
+export default function GenerateImages() {
+    return (
+        <section className="relative w-full min-h-[1200px] bg-black overflow-hidden flex flex-col items-center justify-center py-32">
+
+            {/* Scattered Images - Positioning loosely based on a surrounding layout since precise coords are missing */}
+            <div className="absolute inset-0 w-full h-full max-w-[1440px] mx-auto pointer-events-none">
+
+                {/* 11 */}
+                <div className="absolute left-[5%] top-[10%] w-[106px] h-[211px] rounded-[8px] overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/11.png" alt="img11" fill className="object-cover" />
+                </div>
+
+                {/* 12 - Large background gradient/image? CSS says 1189x2121. Might be too big. keeping it as a subtle back layer if needed usually. Skipping for now or putting nice blob. */}
+                {/* CSS 12 positions a huge bg. I'll stick to the smaller item images for the grid. */}
+
+                {/* 1 */}
+                <div className="absolute left-[15%] top-[20%] w-[225px] h-[402px] rounded-[17px] overflow-hidden opacity-80 hover:opacity-100 transition-opacity duration-500 z-10">
+                    <Image src="/generate_images/1.png" alt="img1" fill className="object-cover" />
+                </div>
+
+                {/* 2 */}
+                <div className="absolute left-[5%] top-[50%] w-[170px] h-[254px] rounded-[6px] overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/2.png" alt="img2" fill className="object-cover" />
+                </div>
+
+                {/* 3 */}
+                <div className="absolute left-[20%] top-[65%] w-[126px] h-[189px] rounded-[8px] overflow-hidden opacity-70 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/3.png" alt="img3" fill className="object-cover" />
+                </div>
+
+                {/* 4 */}
+                <div className="absolute left-[10%] bottom-[10%] w-[156px] h-[189px] rounded-[8px] overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/4.png" alt="img4" fill className="object-cover" />
+                </div>
+
+                {/* 5 */}
+                <div className="absolute right-[15%] top-[15%] w-[225px] h-[338px] rounded-[14px] overflow-hidden opacity-80 hover:opacity-100 transition-opacity duration-500 z-10">
+                    <Image src="/generate_images/5.png" alt="img5" fill className="object-cover" />
+                </div>
+
+                {/* 6 */}
+                <div className="absolute right-[5%] top-[40%] w-[177px] h-[310px] rounded-[13px] overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/6.png" alt="img6" fill className="object-cover" />
+                </div>
+
+                {/* 7 */}
+                <div className="absolute right-[22%] top-[60%] w-[142px] h-[253px] rounded-[11px] overflow-hidden opacity-70 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/7.png" alt="img7" fill className="object-cover" />
+                </div>
+
+                {/* 8 */}
+                <div className="absolute right-[8%] bottom-[15%] w-[188px] h-[270px] rounded-[12px] overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-500">
+                    <Image src="/generate_images/8.png" alt="img8" fill className="object-cover" />
+                </div>
+
+                {/* 9 */}
+                <div className="absolute left-[35%] top-[5%] w-[224px] h-[297px] rounded-[13px] overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-500 blur-[2px]">
+                    <Image src="/generate_images/9.png" alt="img9" fill className="object-cover" />
+                </div>
+
+                {/* 10 */}
+                <div className="absolute right-[35%] bottom-[5%] w-[106px] h-[189px] rounded-[8px] overflow-hidden opacity-50 hover:opacity-100 transition-opacity duration-500 blur-[1px]">
+                    <Image src="/generate_images/10.png" alt="img10" fill className="object-cover" />
+                </div>
+            </div>
+
+            {/* Central Content */}
+            <div className="relative z-20 flex flex-col items-center justify-center gap-4">
+
+                {/* GENERATE */}
+                <h2 className="font-[family-name:var(--font-league-gothic)] text-[120px] md:text-[230px] leading-[0.8] tracking-wider uppercase text-transparent bg-clip-text animate-pulse"
+                    style={{
+                        backgroundImage: "url('/generate_images/Generate.png')",
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        WebkitBackgroundClip: 'text',
+                    }}
+                >
+                    GENERATE
+                </h2>
+
+                {/* IMAGES */}
+                <h2 className="font-[family-name:var(--font-league-gothic)] text-[120px] md:text-[312px] leading-[0.8] tracking-wider uppercase text-transparent bg-clip-text"
+                    style={{
+                        backgroundImage: "url('/generate_images/images.png')",
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        WebkitBackgroundClip: 'text',
+                    }}
+                >
+                    IMAGES
+                </h2>
+
+                {/* Button */}
+                <div className="mt-12">
+                    <button className="flex items-center justify-center px-12 py-3 bg-white rounded-[6px] shadow-[0_0_20px_#FFFFFF] hover:scale-105 transition-transform duration-300">
+                        <span className="font-[family-name:var(--font-host-grotesk)] text-[18px] font-medium tracking-[0.03em] uppercase text-black">
+                            Try For Free
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    )
+}
