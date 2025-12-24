@@ -8,8 +8,9 @@ import Link from 'next/link';
 export default function Footer() {
     return (
         <footer
-            className="relative w-full text-white overflow-hidden  bg-[#0B0B0E] font-[family-name:var(--font-host-grotesk)]"
+            className="relative w-full text-white overflow-hidden  bg-[#0B0B0E]"
             style={{
+                fontFamily: 'var(--font-host-grotesk), sans-serif',
                 backgroundImage: "url('/assets/Footer-bg.jpg')",
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
@@ -48,13 +49,14 @@ export default function Footer() {
 
                         {/* Home Column */}
                         <div className="flex flex-col gap-6">
-                            <h3 className="text-xs font-medium text-white leading-[140%]">Home</h3>
+                            <h3 className="text-xs font-medium text-white leading-[140%]" style={{ fontFamily: 'var(--font-host-grotesk), sans-serif' }}>Home</h3>
                             <nav className="flex flex-col gap-4">
                                 {['Features', 'Theme', 'Pricing', 'Testimonials'].map((item) => (
                                     <Link
                                         key={item}
                                         href="#"
                                         className="text-xs font-medium leading-[140%] text-white/60 hover:text-white transition-colors duration-200"
+                                        style={{ fontFamily: 'var(--font-host-grotesk), sans-serif' }}
                                     >
                                         {item}
                                     </Link>
@@ -64,7 +66,7 @@ export default function Footer() {
 
                         {/* Contact Us Column */}
                         <div className="flex flex-col gap-6">
-                            <h3 className="text-xs font-medium text-white leading-[140%]">Contact Us</h3>
+                            <h3 className="text-xs font-medium text-white leading-[140%]" style={{ fontFamily: 'var(--font-host-grotesk), sans-serif' }}>Contact Us</h3>
                             <div className="flex items-center gap-4">
                                 <Link href="#" className="hover:scale-110 duration-200 opacity-80 hover:opacity-100">
                                     <Image src="/assets/footer-x.svg" alt="X" width={24} height={24} className="w-5 h-5" />
